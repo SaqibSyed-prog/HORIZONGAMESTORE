@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#DAD0D0"
+    tools:context=".Gamenews">
+
+    <EditText
+        android:id="@+id/editTextTextPersonName18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:ems="10"
+        android:gravity="center"
+        android:inputType="textPersonName"
+        android:text="NEWS"
+        app:layout_constraintTop_toBottomOf="@+id/textView48"
+        tools:layout_editor_absoluteX="120dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton12"
+        android:layout_width="61dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="28dp"
+        android:rotation="180"
+        android:scaleType="fitCenter"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName18"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"
+        app:srcCompat="@drawable/backarrow" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="122dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:rotation="-20"
+        android:text="HORIZON GAME STORE"
+        app:layout_constraintEnd_toStartOf="@+id/textView48"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView36"
+        android:layout_width="86dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toEndOf="@+id/textView48"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/gamecontroller" />
+
+    <TextView
+        android:id="@+id/textView48"
+        android:layout_width="110dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="USER"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="195dp" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="200dp"
+        android:layout_height="287dp"
+        android:layout_marginTop="84dp"
+        android:hint="news"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName18"
+        app:layout_constraintVertical_bias="0.076" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

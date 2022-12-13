@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.horizongamestore">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.HORIZONGAMESTORE">
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD8Ju0xj18xhZFESWCv4rBi-FwZ1NnWKko" />
+        <activity
+            android:name=".Modusername"
+            android:exported="false" />
+        <activity
+            android:name=".Modpass"
+            android:exported="false" />
+        <activity
+            android:name=".Gamenews"
+            android:exported="false" />
+        <activity
+            android:name=".Findstores"
+            android:exported="false" />
+        <activity
+            android:name=".Checkout"
+            android:exported="false" />
+        <activity
+            android:name=".AppSettings"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileEdit"
+            android:exported="false" />
+        <activity
+            android:name=".Gamerev"
+            android:exported="false" />
+        <activity
+            android:name=".Cart"
+            android:exported="false" />
+        <activity
+            android:name=".searchact"
+            android:exported="false" />
+        <activity
+            android:name=".availablagames"
+            android:exported="false" />
+        <activity
+            android:name=".AdminCon"
+            android:exported="false" />
+        <activity
+            android:name=".Adminpage"
+            android:exported="false" />
+        <activity
+            android:name=".Homepage"
+            android:exported="false" />
+        <activity
+            android:name=".Creationuser"
+            android:exported="false" />
+        <activity
+            android:name=".SignIn"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
